@@ -1,0 +1,10 @@
+version: '2'
+services:
+    precise:
+        build: ./ubuntu/precise
+    trusty:
+        build: ./ubuntu/trusty
+    xenial:
+        build: ./ubuntu/xenial
+    yakkety:
+        build: ./ubuntu/yakkety
