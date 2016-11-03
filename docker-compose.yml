@@ -8,3 +8,5 @@ services:
         build: ./ubuntu/xenial
     yakkety:
         build: ./ubuntu/yakkety
+    backend:
+        build: ./backend/.

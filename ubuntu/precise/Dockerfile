@@ -1,6 +1,6 @@
 FROM ubuntu:precise
 
-RUN apt-get update && apt-get install \
+RUN apt-get update && apt-get install -y \
         apt-file
 
 RUN apt-file update
